@@ -23,7 +23,7 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {}
-  my_hash_creator[:key] = value
+  my_hash_creator[:key] = "name: " + value
   puts my_hash_creator
 end
 
